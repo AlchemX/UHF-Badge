@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/benis/MEGA/1111(((Funk)))/RF-Badge/KiCAD/RF-Badge/RF-Badge.kicad_sch</source>
+    <date>So 23 Okt 2022 15:27:38</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RF-Badge</title>
+        <company>HB9UF</company>
+        <rev>1.0</rev>
+        <date>18. Oct. 2022</date>
+        <source>RF-Badge.kicad_sch</source>
+        <comment number="1" value="Author: Andreas Rodler HB9HDF"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AE1">
+      <value>Antenna</value>
+      <libsource lib="Device" part="Antenna" description="Antenna"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF-Badge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b41f2ddc-43f1-4662-996f-e506e743416d</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF-Badge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9937ceb5-d92a-4415-af7d-f98c42d4a46a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF-Badge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>334f8aaa-d355-41c7-bb33-eb606b2c4ad3</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MMSD701T1G</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MMSD4148T1-D.PDF</datasheet>
+      <libsource lib="Diode" part="MMSD4148" description="100V 200mA Switching Diode, SOD-123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF-Badge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f30a714-675f-4241-b630-62c0657e3be2</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>MMSD701T1G</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MMSD4148T1-D.PDF</datasheet>
+      <libsource lib="Diode" part="MMSD4148" description="100V 200mA Switching Diode, SOD-123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF-Badge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a47f468-ff54-435b-978c-5d92b0b6972a</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LTST-T680KSWT</value>
+      <footprint>LED_SMD:LED_PLCC-2</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF-Badge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3a5ef43-bdd4-4ab5-8568-b86b4289ede2</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LTST-T680UBWT</value>
+      <footprint>LED_SMD:LED_PLCC-2</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF-Badge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db82e003-4206-4c54-b91d-d3082c827543</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_Coaxial</value>
+      <footprint>Connector_Coaxial:SMA_Amphenol_132289_EdgeMount</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF-Badge.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2255e21-0b6a-4725-b854-9af23888d14e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Antenna">
+      <description>Antenna</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MMSD4148">
+      <description>100V 200mA Switching Diode, SOD-123</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MMSD4148T1-D.PDF</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MMSD4148</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MMSD4148T1-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Earth">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Ext" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(AE1-Pad1)">
+      <node ref="AE1" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="In" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+  </nets>
+</export>
